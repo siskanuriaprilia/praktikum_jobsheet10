@@ -27,9 +27,9 @@ public class Bioskop27 {
         System.out.println("panjang  baris: " + barisPenonton.length);
         }
         System.out.println("Penonton pada baris ke-3: ");
-        for (int i = 0; i < penonton[2].length; i++)
+        for (String i : penonton[2])
         {
-           System.out.println(penonton[2][i]);
+           System.out.println(i);
         }
     }
 }
