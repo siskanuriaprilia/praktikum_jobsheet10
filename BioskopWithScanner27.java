@@ -30,12 +30,36 @@ public class BioskopWithScanner27 {
 
             if (baris >= 1 && baris <= 4 && kolom >= 1 && kolom <=2)
             {
+                if (penonton[baris - 1][kolom - 1] == null)
+                { 
                 penonton[baris - 1][kolom - 1] = nama;
                 System.out.println("Data penonton telah diinput.");
+                }
             }
             else
             {
+                System.out.println("Kursi tersebut sudah terisi oleh penonton lain.");
+            }
+            {
                 System.out.println("Nomor baris/kolom kursi tidak tersedia.");
+            }
+            break;
+        case 2:
+            System.out.println("Daftar penonton:");
+            for(int i = 0; i < 4; i++)
+            {
+            for (int j = 0; j < 2; j++)
+            {
+                if(penonton[i][j] == null)
+                {
+                    System.out.println("*** ");
+                }
+                else
+                {
+                    System.out.println(penonton[i][j] + " ");
+                }
+            }
+            System.out.println();
             }
             break;
         }
