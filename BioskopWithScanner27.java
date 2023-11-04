@@ -64,6 +64,6 @@ public class BioskopWithScanner27 {
             break;
         }
       }
-   }
+    }
 }
 
