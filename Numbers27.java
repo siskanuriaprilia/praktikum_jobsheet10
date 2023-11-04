@@ -12,6 +12,10 @@ public class Numbers27 {
         for (int i = 0; i < myNumbers.length; i++)
         {
             System.out.println(Arrays.toString(myNumbers[1]));
-        }       
+        }
+        for (int i = 0; i < myNumbers.length; i++)
+        {
+            System.out.println("Panjang baris ke-" + (i+1) + ": " + myNumbers[i].length );
+        }
     }
 }
