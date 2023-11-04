@@ -5,11 +5,11 @@ public class BioskopWithScanner27 {
     public static void main(String[] args) {
 
         Scanner input27 = new Scanner (System.in);
-        int loop = 0;
+        int baris,kolom;
         String nama, next;
         String[][] penonton = new String[4][2];
 
-        while (loop != 3) {
+        while (true) {
             System.out.println("Menu: ");
             System.out.println("1. Input data penonton");
             System.out.println("2. Tampilkan daftar penonton");
